@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://ndy-static.vercel.app',
     images: [
       {
-        url: 'https://res.cloudinary.com/dexnb3wk2/image/upload/v1721476623/ndy/vfynyiufjql3vpjlpbpd.png',
+        url: 'https://res.cloudinary.com/dexnb3wk2/image/upload/v1721477422/ndy/og_img.jpg',
         width: 1200,
         height: 630,
         alt: 'Not Done Yet',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Not Done Yet',
     description: 'Building the LinkedIn for Sports World',
-    images: ['https://res.cloudinary.com/dexnb3wk2/image/upload/v1721476623/ndy/vfynyiufjql3vpjlpbpd.png'],
+    images: ['https://res.cloudinary.com/dexnb3wk2/image/upload/v1721477422/ndy/og_img.jpg'],
   },
 };
 
