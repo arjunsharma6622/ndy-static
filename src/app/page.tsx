@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Not Done Yet',
     description: 'Building the LinkedIn for Sports World',
-    url: '/og_img.jpg',
+    url: 'https://res.cloudinary.com/dexnb3wk2/image/upload/v1721476623/ndy/vfynyiufjql3vpjlpbpd.png',
     images: [
       {
         url: '/og_img.jpg',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Not Done Yet',
     description: 'Building the LinkedIn for Sports World',
-    images: ['/og_img.jpg'],
+    images: ['https://res.cloudinary.com/dexnb3wk2/image/upload/v1721476623/ndy/vfynyiufjql3vpjlpbpd.png'],
   },
 };
 
