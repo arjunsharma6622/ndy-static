@@ -9,7 +9,7 @@ const p = Plus_Jakarta_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   openGraph: {
     title: 'Not Done Yet',
-    description: 'Building the LinkedIn for Sports World',
+    description: 'Building the LinkedIn for Sports World. Our app bridges the gap between all sports professionals, creating opportunities for growth, collaboration, and success. Discover How Our Latest Initiative is Transforming the Sports Landscape',
     url: 'https://ndy-static.vercel.app',
     images: [
       {
