@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <section id="projects" className="container px-2 py-10 md:px-10 md:py-16">
+    <section id="projects" className="container px-4 py-10 md:px-10 md:py-16">
       <Heading heading="Our Recent Project" subline="Discover How Our Latest Initiative is Transforming the Sports Landscape" />
 
       <div className="mt-6 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">

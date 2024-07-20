@@ -76,24 +76,24 @@ export default function Navbar() {
   ];
 
   return (
-    <div className={`h-12 flex items-center justify-between px-4 py-2 w-full ${!isVisible ? 'bg-white fixed top-0 shadow' : 'bg-transparent'} py-4 flex px-10 justify-between items-center transition-all duration-200 z-[40]`}>
-      <Link href="#" className="flex items-center gap-2" prefetch={false}>
+    <div className={`fixed flex items-center justify-center w-full z-[40] -top-2`}>
+      <Link href="#" className={`flex w-[80%] md:w-1/4 items-center justify-center gap-2 transition-all duration-200 mx-auto py-4  md:px-10 px-6 rounded-b-[2rem] ${!isVisible ? 'bg-white backdrop-blur-sm top-0 shadow-xl' : 'bg-transparent'}`} prefetch={false}>
         <Image
           src="/logo_long.svg"
           alt="Logo"
           width={200}
           height={700}
-          className="w-24"
+          className="w-32 md:w-44 mt-1"
         />
       </Link>
-      <div className="hidden md:flex gap-10">
+      {/* <div className="hidden md:flex gap-10">
         {menuItems.map((item) => (
           <Link key={item.name} href={item.href} className="text-lg font-normal hover:underline" prefetch={false}>
             {item.name}
           </Link>
         ))}
-      </div>
-      <Sheet>
+      </div> */}
+      {/* <Sheet>
         <SheetTrigger asChild>
           <Menu className={`h-6 w-6 cursor-pointer md:hidden`} />
         </SheetTrigger>
@@ -106,7 +106,7 @@ export default function Navbar() {
             ))}
           </div>
         </SheetContent>
-      </Sheet>
+      </Sheet> */}
     </div>
   )
 }

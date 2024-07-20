@@ -15,7 +15,7 @@ const InteractiveSection = () => {
   const [activeTab, setActiveTab] = useState("athlete");
 
   return (
-    <div className="container mx-auto px-2 py-10 md:px-10 md:py-16">
+    <div className="container mx-auto px-4 py-10 md:px-10 md:py-16">
       <div className="flex justify-between items-center flex-col gap-10 md:gap-0 md:flex-row">
         <Image
           src="/images/network.svg"
@@ -80,7 +80,7 @@ const InteractiveSection = () => {
               <img
                 src={`/images/${tabContent[activeTab].image}`}
                 alt="Hero Image"
-                className="w-24 md:w-44 grayscale"
+                className="w-16 md:w-44 grayscale"
               />
             </div>
           </div>

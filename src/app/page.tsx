@@ -7,7 +7,7 @@ import Projects from "./(components)/Projects";
 
 const HomePage: React.FC = () => {
   return (
-    <div className="bg-white w-full min-h-screen ">
+    <div className="bg-white w-full min-h-screen overflow-x-hidden">
       <main>
         <Hero />
         <About />
