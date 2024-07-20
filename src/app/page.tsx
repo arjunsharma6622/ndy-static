@@ -4,10 +4,6 @@ import Contact from "./(components)/Contact";
 import Hero from "./(components)/Hero";
 import InteractiveSection from "./(components)/Interactive";
 import Projects from "./(components)/Projects";
-import Head from "next/head";
-import { Metadata } from 'next'; // if using TypeScript
-
-
 
 const HomePage: React.FC = () => {
   return (
