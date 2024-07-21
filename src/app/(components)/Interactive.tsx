@@ -80,7 +80,7 @@ const InteractiveSection = () => {
               <img
                 src={`/images/${tabContent[activeTab].image}`}
                 alt="Hero Image"
-                className="w-16 md:w-44 grayscale"
+                className="w-16 md:w-44"
               />
             </div>
           </div>

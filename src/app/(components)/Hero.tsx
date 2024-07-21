@@ -1,4 +1,6 @@
+import { ArrowUpRight, User } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -17,9 +19,9 @@ const Hero = () => {
                             <button className="bg-black text-white px-3 md:px-6 py-3 rounded-full font-bold hover:bg-gray-800 transition">
                                 Join Our Network
                             </button>
-                            <button className="bg-red-600 text-white px-3 md:px-6 py-3 rounded-full font-bold hover:bg-gray-800 transition">
-                                Explore the App
-                            </button>
+                            <Link href={"https://notdoneyet.vercel.app/signup"} className="bg-red-600 text-white px-3 md:px-6 py-3 rounded-full font-bold hover:bg-gray-800 transition">
+                                Sign Up
+                            </Link>
                         </div>
 
                     </section>
