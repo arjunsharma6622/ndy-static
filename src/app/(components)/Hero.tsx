@@ -7,7 +7,7 @@ const Hero = () => {
                     <section className=" text-black text-center flex flex-col items-center">
 
                         <h1 className={`text-4xl md:text-6xl font-black max-w-2xl mx-auto relative text-center`}>
-                            Building the LinkedIn for <span className="underline decoration-wavy decoration-gray-400 decoration-1 md:decoration-2 underline-offset-4">Sports World 
+                            Building the LinkedIn for <span className="underline decoration-wavy decoration-gray-400 decoration-1 md:decoration-2 underline-offset-4">Sports 
                                 <img src="/images/sports.svg" alt="sports icon" className='grayscale w-12 h-12 md:w-24 md:h-24 inline mb-2 ml-1 md:mb-4 md:ml-2'/>
                             </span>
 
