@@ -1,7 +1,7 @@
 export const features = [
     {
         title: "Networking",
-        description: "Connect with athletes and coaches to grow your career.",
+        description: "Connect with athletes, coaches, doctors and sponsors to grow your career.",
         icon: "Network",
         color: "to-green-200",
     },
