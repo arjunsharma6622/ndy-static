@@ -16,7 +16,7 @@ const InteractiveSection = () => {
 
   return (
     <div className="container mx-auto px-4 py-10 md:px-10 md:py-16">
-      <div className="flex justify-between items-center flex-col gap-10 md:gap-0 md:flex-row">
+      <div className="flex justify-between items-center flex-col gap-10 md:gap-10 md:flex-row">
         <Image
           src="/images/network.svg"
           alt="Hero Image"
@@ -25,15 +25,15 @@ const InteractiveSection = () => {
           className=""
         />
 
-        <div className="flex flex-col gap-2 md:gap-4">
+        <div className="flex flex-col gap-2 md:gap-4 ">
           <h2 className="text-xl md:text-2xl font-bold text-center md:text-left">
             Which One of These Are You?
           </h2>
-          <div className="hidden md:flex justify-center">
+          <div className="hidden md:flex justify-center md:flex-wrap gap-y-4">
             {tabs.map((tab) => (
               <button
                 key={tab.key}
-                className={`px-4 py-2 mx-2 rounded-full ${activeTab === tab.key
+                className={`px-4 py-2 mx-1 rounded-full ${activeTab === tab.key
                     ? "bg-red-600 text-white"
                     : "bg-gray-100 text-black"
                   }`}
